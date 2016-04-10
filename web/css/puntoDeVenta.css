@@ -1,0 +1,75 @@
+.navbar{
+    margin-bottom: 0;
+}
+
+.bordeado{
+    border: solid 1px #979798;
+    padding: 30px;
+     
+}
+
+.error{
+    color: red;   
+    display: block;
+    top:100px;
+
+}
+
+.titleInicioSesion{
+    color: whitesmoke;
+    background-color: #222222;
+    padding: 10px;
+    text-align: center;
+}
+
+
+html,
+body {
+  font-size: 12pt;
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 90%;
+  padding-bottom: 50px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #222;
+}
+
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; }
+
+.pointer{
+    cursor:pointer;
+}
+ 
+/*Arregla lo de los mensajes de validacion.*/
+
+.form-inline .form-group {
+    vertical-align: text-top; 
+    
+}
+    /*Para alinear los botones en terminaVenta.*/
+.btn-termVenta{
+    margin-top: 25px; 
+}
+
+table thead tr th{
+    text-align: center;
+}
+
+table tbody tr td{
+    text-align: center;
+}
+
+.info th{
+    text-align: center;
+}
+
+
+
